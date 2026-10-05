@@ -29,7 +29,7 @@ class Departamento:
         self._Piso = Piso
 
     def __str__(self)-> str:
-    return f"Información del departamento:\nID: {self.Id_Departamento}\nNombre: {self.Nombre}\nPiso: {self.Piso}"
+        return f"Información del departamento:\nID: {self.Id_Departamento}\nNombre: {self.Nombre}\nPiso: {self.Piso}"
 
     def __repr__(self)-> str:
         return f"Departamento(Id_Departamento={self.Id_Departamento}, Nombre='{self.Nombre}', Piso={self.Piso})"
